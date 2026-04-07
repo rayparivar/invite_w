@@ -49,10 +49,10 @@
         .events-section{
             position:relative;
             padding-left:170px;
-            margin-top: 100px;
+            margin-top: 80px;
             display: flex;
             align-items: center;
-            min-height: 200px;
+            min-height: 160px;
         }
         .events-art{
             position:absolute;
@@ -348,7 +348,7 @@
                 </div>
             </div>
         </div>
-        <svg class=sprig style=margin-top:100px;height:50px viewBox="0 0 480 50" xmlns=http://www.w3.org/2000/svg>
+        <svg class=sprig style=margin-top:40px;height:50px viewBox="0 0 480 50" xmlns=http://www.w3.org/2000/svg>
             <g opacity=.28 stroke=#b8c4a0 stroke-width=1 fill=none>
                 <path d="M80,25 Q240,15 400,25" />
             </g>
@@ -454,7 +454,7 @@ const mb=document.getElementById("musicBtn");
 /* start music */
 
 function startMusic(){
-    music.volume = 0.12;
+    music.volume = 0.08;
     music.play().then(()=>{
         musicStarted=true;
         mb.textContent="🔊";
